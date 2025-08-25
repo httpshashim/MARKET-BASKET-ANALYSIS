@@ -1,0 +1,55 @@
+# Changelog for Market Basket Analysis Internship Project
+
+## Version 1.0.0 — Initial Completion
+**Date:** August 2025
+
+### Added
+- Imported and explored Online Retail II dataset (~1 million+ transactions).
+- Implemented data cleaning pipeline:
+  - Removed missing Customer IDs and product descriptions.
+  - Filtered cancelled transactions (Invoice starting with 'C').
+  - Eliminated negative or zero quantity and price records.
+  - Trimmed quantity outliers by 99th percentile cutoff.
+- Created market baskets grouped by Invoice for transaction analysis.
+- Applied Apriori algorithm to mine association rules using:
+  - Minimum support: 1%
+  - Minimum confidence: 50%
+  - Minimum lift: 1.2
+- Visualized item frequencies and association rules (scatterplot, grouped matrix, network, parallel coordinates).
+- Developed product recommendation function based on mined rules.
+- Generated sample recommendations for test baskets.
+- Exported association rules and top frequent items to CSV files.
+- Documented detailed project report with methodology, results, and business insights.
+- Created professional LinkedIn post and GitHub README content.
+- Designed presentation outline for effective communication of findings.
+
+### Changed
+- Revised Apriori parameter tuning for balance between rule quantity and quality.
+- Enhanced recommendation function to handle edge cases and missing rule matches.
+- Improved data loading scripts for compatibility in Kaggle environment.
+
+### Fixed
+- Resolved package installation issues by specifying CRAN mirrors.
+- Corrected case sensitivity errors (e.g., `lhs()` function) in export scripts.
+- Addressed transaction conversion warnings by deduplication of items.
+
+---
+
+## Planned Next Versions
+
+### Version 1.1.0 — Advanced Features (Upcoming)
+- Incorporate temporal and seasonal trend analysis.
+- Perform customer segmentation and demographic profiling.
+- Integrate advanced association algorithms (FP-Growth).
+- Deploy recommendation system within live ecommerce demo.
+- Automate update of association rules with streaming data inputs.
+
+### Version 2.0.0 — Expansion and Optimization
+- Scale analysis to multiple retail datasets and regions.
+- Optimize computation using parallel processing and cloud resources.
+- Develop comprehensive dashboard with interactive visualization.
+- Publish findings in academic or industry forums.
+
+---
+
+*End of Changelog*
