@@ -79,11 +79,11 @@ This project applies Market Basket Analysis (MBA) to the Online Retail II datase
 ## Future Work
 - Incorporate temporal and seasonality analysis  
 - Expand to customer segmentation and predictive analytics  
-- Improve recommendation engine for real-time use  
+- Improve the recommendation engine for real-time use  
 - Explore alternative algorithms like FP-Growth for efficiency
 
 ## Author
-[Your Name]  
+Mohamed Hashim  
 Aspiring Data Analyst | Internship Project  
 [LinkedIn Profile URL] | [Contact Email]
 
